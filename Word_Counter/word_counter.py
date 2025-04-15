@@ -1,6 +1,6 @@
 #The Word Counter Challenge
 """
-Analyzes a text file and outputs a new file containing a frequency list of all the unique words and their counts
+Analyzes a text file and outputs frequency list of all the unique words and their counts
 """
 
 def remove_punc(text):
