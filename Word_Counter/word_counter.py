@@ -4,7 +4,7 @@ Analyzes a text file and outputs frequency list of all the unique words and thei
 """
 
 def remove_punc(text):
-    punc_list = [".", ",", "!", "?","'",'"',"(", ")", ":", ";"]
+    punc_list = [".", ",", "!", "?",'"',"(", ")", ":", ";"]
     
     for punc in punc_list:
         text = text.replace(punc, "")
